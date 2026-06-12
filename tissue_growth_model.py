@@ -381,7 +381,8 @@ class TissueSim2D:
             if (t%self.snapscore == 0):
                 self.n1_snap[:, :, self.current_timestep//self.snapscore] = self.n1
                 self.n2_snap[:, :, self.current_timestep//self.snapscore] = self.n2
-                #print(f"{t/self.count_timesteps*100:.2f}% - total_mass={self.n1.sum() + self.n2.sum():.6e}") # Print total mass
+                # Print total mass to understand development of tissue (slows simulation)
+                #print(f"{t/self.count_timesteps*100:.2f}% - total_mass={self.n1.sum() + self.n2.sum():.6e}")
                 print(f"{t/self.count_timesteps*100:.2f}%")
         print(f"100.00%")
         print(f"Simulation completed. Total_mass={self.n1.sum() + self.n2.sum():.6e}")

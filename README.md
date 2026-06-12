@@ -9,7 +9,11 @@ The simulation considers two competing cell populations whose dynamics are gover
 
 ## Mathematical model (PDE)
 
-The model describes the evolution of two competing cell populations in space and time.
+The model describes the evolution of two competing cell populations in space and time and is governed by the following system:
+
+$$
+\frac{\del n\i }{\del t} = \nabla \cdot \left( n\i \nabla \underline n \right) + n\i G\i(\underline n) .
+$$
 
 Changes in local cell density arise from:
 
@@ -55,3 +59,7 @@ Several representative simulation results are included below.
 4) Run the simulation with `sim.run()`.
 5) Visualize the simulation with `sim.visualize()`.
 6) Save and load with `sim.save()` and `sim.load()`.
+
+
+## References
+* Debiec, T., Mandal, M., & Schmidtchen, M. *From finite to continuous phenotypes in (visco-)elastic tissue growth models.* [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0022039625004024)
