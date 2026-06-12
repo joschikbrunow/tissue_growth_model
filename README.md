@@ -12,7 +12,7 @@ The simulation considers two competing cell populations whose dynamics are gover
 The model describes the evolution of two competing cell populations in space and time and is governed by the following system:
 
 $$
-\frac{\del n\i }{\del t} = \nabla \cdot \left( n\i \nabla \underline n \right) + n\i G\i(\underline n) .
+\frac{\partial n^{(i)} }{\partial t} = \nabla \cdot \left( n^{(i)} \nabla \underline n \right) + n^{(i)} G^{(i)}(\underline n) .
 $$
 
 Changes in local cell density arise from:
