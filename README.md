@@ -62,4 +62,4 @@ Several representative simulation results are included below.
 
 
 ## References
-* Debiec, T., Mandal, M., & Schmidtchen, M. *From finite to continuous phenotypes in (visco-)elastic tissue growth models.* [sciencedirect](https://www.sciencedirect.com/science/article/pii/S0022039625004024)
+* Debiec, T., Mandal, M., & Schmidtchen, M. <a href="https://www.sciencedirect.com/science/article/pii/S0022039625004024" target="_blank">*From finite to continuous phenotypes in (visco-)elastic tissue growth models.*</a>
